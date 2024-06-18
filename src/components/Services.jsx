@@ -51,6 +51,7 @@ const Services = () => {
             fontWeight: 100,
             mt: 4,
             mb: 6,
+            letterSpacing: 1,
           }}
         >
           SERVICES
@@ -58,7 +59,7 @@ const Services = () => {
         <Typography
           sx={{
             color: 'white',
-            width: '50vw',
+            width: '70vw',
             textAlign: 'center',
             lineHeight: 1.5,
           }}
@@ -93,8 +94,9 @@ const Services = () => {
                 src={service.src}
                 alt={service.title}
                 style={{
-                  maxWidth: '200px',
-                  marginBottom: '8px',
+                  maxWidth: '280px',
+                  maxHeight: '200px',
+                  mb: 8,
                   alignSelf: 'center',
                 }}
               />

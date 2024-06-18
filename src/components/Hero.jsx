@@ -45,7 +45,7 @@ const Hero = () => {
           </Typography>
 
           <Typography
-            // variant='h5'
+            variant='h5'
             sx={{
               color: 'white',
               fontWeight: 'light',
