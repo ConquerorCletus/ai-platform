@@ -33,7 +33,7 @@ const Navbar = () => {
               Support
             </Button>
           </Stack>
-          <Stack direction={'row'} spacing={1}>
+          <Stack direction={'row'} spacing={1} sx={{ ml: 2 }}>
             <Button
               variant='outlined'
               sx={{
@@ -41,7 +41,6 @@ const Navbar = () => {
                 borderColor: '#FF7F3E',
                 textDecoration: 'none',
                 color: '#FF7F3E',
-                
               }}
             >
               Log in

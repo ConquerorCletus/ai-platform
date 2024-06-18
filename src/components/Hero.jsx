@@ -23,14 +23,36 @@ const Hero = () => {
         }}
       >
         <Box>
-          <Typography variant='h1' sx={{ color: 'white', fontWeight: 700 }}>
+          <Typography
+            variant='h1'
+            sx={{
+              color: 'white',
+              fontWeight: 'bold',
+            }}
+          >
             Revolutionize your App
           </Typography>
-          <Typography variant='h1' sx={{ color: 'white', fontWeight: 300 }}>
+          <Typography
+            variant='h1'
+            sx={{
+              color: 'white',
+              // fontSize: '32px',
+              fontWeight: 'light',
+              // lineHeight: 1.2
+            }}
+          >
             Development with AI
           </Typography>
 
-          <Typography variant='h5' sx={{ color: 'white', fontWeight: 100, letterSpacing: '5px', wordSpacing: '4px' }}>
+          <Typography
+            // variant='h5'
+            sx={{
+              color: 'white',
+              fontWeight: 'light',
+              letterSpacing: '5px',
+              wordSpacing: '5px',
+            }}
+          >
             Efforlessly create powerful apps in minutes with AI-driven platform.
           </Typography>
         </Box>
