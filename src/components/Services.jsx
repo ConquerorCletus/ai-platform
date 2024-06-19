@@ -32,7 +32,7 @@ const Services = () => {
         maxWidth={false}
         sx={{
           position: 'static',
-          backgroundColor: 'black',
+          backgroundColor: '#0D1117',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           width: '100vw',

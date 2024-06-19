@@ -10,7 +10,7 @@ const Navbar = () => {
         sx={{
           display: 'flex',
           justifyContent: 'space-between',
-          bgcolor: 'black',
+          bgcolor: '#0D1117',
         }}
       >
         <Toolbar
@@ -20,16 +20,16 @@ const Navbar = () => {
           }}
         >
           <Stack direction={'row'} spacing={2} sx={{ mr: '20' }}>
-            <Button color='inherit' sx={{ textTransform: 'none' }}>
+            <Button href='#' color='inherit' sx={{ textTransform: 'none' }}>
               Features
             </Button>
-            <Button color='inherit' sx={{ textTransform: 'none' }}>
+            <Button href='#' color='inherit' sx={{ textTransform: 'none' }}>
               Pricing
             </Button>
-            <Button color='inherit' sx={{ textTransform: 'none' }}>
+            <Button href='#' color='inherit' sx={{ textTransform: 'none' }}>
               Community
             </Button>
-            <Button color='inherit' sx={{ textTransform: 'none' }}>
+            <Button href='#' color='inherit' sx={{ textTransform: 'none' }}>
               Support
             </Button>
           </Stack>
@@ -45,7 +45,7 @@ const Navbar = () => {
             >
               Log in
             </Button>
-            <Button color='inherit' sx={{ textTransform: 'none' }}>
+            <Button href='#' color='inherit' sx={{ textTransform: 'none' }}>
               Sign Up
             </Button>
           </Stack>

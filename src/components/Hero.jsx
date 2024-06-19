@@ -27,6 +27,7 @@ const Hero = () => {
             variant='h1'
             sx={{
               color: 'white',
+              fontFamily: 'Montserrat',
               fontWeight: 'bold',
             }}
           >
@@ -36,6 +37,7 @@ const Hero = () => {
             variant='h1'
             sx={{
               color: 'white',
+              fontFamily: 'Montserrat',
               // fontSize: '32px',
               fontWeight: 'light',
               // lineHeight: 1.2
@@ -47,6 +49,7 @@ const Hero = () => {
           <Typography
             variant='h5'
             sx={{
+              fontFamily: 'Montserrat',
               color: 'white',
               fontWeight: 'light',
               letterSpacing: '5px',
