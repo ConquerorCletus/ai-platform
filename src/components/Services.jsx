@@ -1,6 +1,8 @@
 import React from 'react';
 // material-UI imports
 import { Typography, Container, Box, Button } from '@mui/material';
+import BackgroundImage from '../images/Background1.jpg';
+
 
 const showServices = [
   {
@@ -31,6 +33,7 @@ const Services = () => {
       <Container
         maxWidth={false}
         sx={{
+          backgroundImage: `url(${BackgroundImage})`,
           position: 'static',
           backgroundColor: '#0D1117',
           backgroundSize: 'cover',
