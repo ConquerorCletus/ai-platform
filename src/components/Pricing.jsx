@@ -2,6 +2,8 @@ import React from 'react';
 // material-ui imports
 import { Container, Typography, Box, Paper, Button } from '@mui/material';
 import { Check } from '@mui/icons-material';
+import BackgroundImage from '../images/Background1.jpg';
+
 
 const Pricing = () => {
   return (
@@ -9,6 +11,7 @@ const Pricing = () => {
       <Container
         maxWidth={false}
         sx={{
+          backgroundImage: `url(${BackgroundImage})`,
           position: 'static',
           backgroundColor: '#0D1117',
           backgroundSize: 'cover',

@@ -24,7 +24,7 @@ const Hero = () => {
       >
         <Box>
           <Typography
-            variant='h1'
+            variant='h2'
             sx={{
               color: 'white',
               fontFamily: 'Montserrat',
@@ -34,7 +34,7 @@ const Hero = () => {
             Revolutionize your App
           </Typography>
           <Typography
-            variant='h1'
+            variant='h3'
             sx={{
               color: 'white',
               fontFamily: 'Montserrat',
@@ -52,7 +52,6 @@ const Hero = () => {
               fontFamily: 'Montserrat',
               color: 'white',
               fontWeight: 'light',
-              letterSpacing: '5px',
               wordSpacing: '5px',
             }}
           >
@@ -66,7 +65,7 @@ const Hero = () => {
             mt: 5,
             textTransform: 'none',
             border: 'solid none',
-            width: '200px',
+            width: '250px',
             bgcolor: '#FF7F3E',
           }}
         >
