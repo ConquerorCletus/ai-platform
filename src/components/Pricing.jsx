@@ -4,7 +4,6 @@ import { Container, Typography, Box, Paper, Button } from '@mui/material';
 import { Check } from '@mui/icons-material';
 import BackgroundImage from '../images/Background1.jpg';
 
-
 const Pricing = () => {
   return (
     <>
@@ -36,7 +35,17 @@ const Pricing = () => {
           a quos
         </Typography>
 
-        <Box sx={{ display: 'flex', flexDirection: 'row',  }}>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'center',
+            width: '100vw',
+            height: 'auto',
+            my: 'auto',
+            py: 'auto',
+          }}
+        >
           <Paper
             // square={false}
             sx={{
@@ -92,6 +101,8 @@ const Pricing = () => {
                   border: 'solid #FF7F3E',
                   textDecoration: 'none',
                   color: '#FF7F3E',
+                  textTransform: 'none',
+                  fontWeight: 'bold',
                 }}
               >
                 Get Started
@@ -99,6 +110,134 @@ const Pricing = () => {
             </Box>
           </Paper>
           <Paper
+            square={false}
+            elevation={12}
+            sx={{
+              width: 380,
+              height: 400,
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'flex-end',
+              // color: 'white',
+
+              // p: 4,
+              // fontSize: 20,
+              fontWeight: 'bold',
+              alignItems: 'center',
+              bgcolor: '#FF7F3E',
+              transform: 'translateY(-20px)',
+            }}
+          >
+            <p style={{ color: 'white' }}>Most Popular</p>
+            <Box
+              square={false}
+              sx={{
+                border: 'solid #FF7F3E',
+                width: '100%',
+                height: '100%',
+
+                bgcolor: 'white', // Background color of the inner Box
+                p: 2,
+                boxSizing: 'border-box',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                my: 'auto',
+
+                // color: '#FF7F3E', // Text color of the content
+              }}
+            >
+              Essential
+              <br />
+              $59 / month
+              <Box
+                sx={{
+                  // border: 'solid #DDE6ED',
+
+                  mt: 4,
+                  display: 'flex',
+                  // flex: 1,
+                  flexDirection: 'column',
+                  width: '100%',
+                  height: '100%',
+                  // bgcolor: '#DDE6ED',
+                }}
+              >
+                <Typography
+                  sx={{
+                    display: 'inline-block',
+                    my: 'auto',
+                    mx: 'auto',
+                    alignItems: 'center',
+                    width: '80%',
+                  }}
+                >
+                  <Check sx={{ color: '#FF7F3E', mr: 1 }} /> Lorem ipsum, dolor
+                  sit amet
+                </Typography>
+                <Typography
+                  sx={{
+                    display: 'inline-block',
+                    my: 'auto',
+                    mx: 'auto',
+                    width: '80%',
+                  }}
+                >
+                  <Check sx={{ color: '#FF7F3E', mr: 1 }} />
+                  Lorem ipsum, dolor sit amet
+                </Typography>
+                <Typography
+                  sx={{
+                    display: 'inline-block',
+                    my: 'auto',
+                    mx: 'auto',
+                    width: '80%',
+                  }}
+                >
+                  <Check sx={{ color: '#FF7F3E', mr: 1 }} />
+                  Lorem ipsum, dolor sit amet
+                </Typography>
+                <Typography
+                  sx={{
+                    display: 'inline-block',
+                    // justifyContent: 'space-between',
+                    my: 'auto',
+                    mx: 'auto',
+                    width: '80%',
+                  }}
+                >
+                  <Check sx={{ color: '#FF7F3E', mr: 1 }} />
+                  Lorem ipsum, dolor sit amet
+                </Typography>
+                <Typography
+                  sx={{
+                    display: 'inline-block',
+                    my: 'auto',
+                    mx: 'auto',
+                    width: '80%',
+                  }}
+                >
+                  <Check sx={{ color: '#FF7F3E', mr: 1 }} />
+                  Lorem ipsum, dolor sit amet
+                </Typography>
+                <Button
+                  variant='contained'
+                  sx={{
+                    mt: 3,
+                    bgcolor: '#FFF6E9',
+                    border: 'solid #FF7F3E',
+                    textDecoration: 'none',
+                    color: '#FF7F3E',
+                    textTransform: 'none',
+                    fontWeight: 'bold',
+                  }}
+                >
+                  Get Started
+                </Button>
+              </Box>
+            </Box>
+          </Paper>
+          {/* <Box
             // square={false}
             elevation={2}
             sx={{
@@ -172,7 +311,7 @@ const Pricing = () => {
                 Get Started
               </Button>
             </Box>
-          </Paper>
+          </Box> */}
           <Paper
             // square={false}
             sx={{
@@ -187,9 +326,9 @@ const Pricing = () => {
               alignItems: 'center',
             }}
           >
-            Basic
+            Premium
             <br />
-            $19 / month
+            $119 / month
             <Box
               sx={{
                 mt: 4,
@@ -228,6 +367,8 @@ const Pricing = () => {
                   border: 'solid #FF7F3E',
                   textDecoration: 'none',
                   color: '#FF7F3E',
+                  textTransform: 'none',
+                  fontWeight: 'bold',
                 }}
               >
                 Get Started
